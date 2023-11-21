@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Event Entry Form</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h2 class="my-4">Cultural Event Entry Form</h2>
+    <form>
+        <div class="form-group">
+            <label for="eventName">Event Name</label>
+            <input type="text" class="form-control" id="eventName" placeholder="Enter event name" required>
+        </div>
+        <div class="form-group">
+            <label for="eventDate">Event Date</label>
+            <input type="date" class="form-control" id="eventDate" required>
+        </div>
+        <div class="form-group">
+            <label for="eventLocation">Event Location</label>
+            <input type="text" class="form-control" id="eventLocation" placeholder="Enter event location" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Event Description</label>
+            <textarea class="form-control" id="description" rows="4" placeholder="Enter event description" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="contactEmail">Contact Email</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="Enter contact email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Add Bootstrap JS (optional) -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

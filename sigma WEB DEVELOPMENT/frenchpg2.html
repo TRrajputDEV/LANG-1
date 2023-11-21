@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="stylenew.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        /* Custom styles for dark-themed appearance */
+        body {
+            background-color: #2a2929;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .lesson {
+            margin: 30px;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .lesson-locked {
+            margin: 30px;
+            padding: 20px;
+            background-color: #555;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .lesson-title {
+            font-weight: bold;
+        }
+
+        .lock-icon {
+            color: #ccc;
+            font-size: 50px;
+        }
+
+        .coming-soon {
+            color: #ccc;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Learn French</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="new1.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#content2">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Navigation bar (you can customize it further) -->
+    <div class="container mt-5">
+        <h1>French Lessons</h1>
+        <p>Welcome to your French learning journey. Below are your lessons:</p>
+
+        <div class="lesson">
+            <h2 class="lesson-title">Lesson 1</h2>
+            <p>Introduction to French</p>
+            <a class="btn btn-primary" href="frenchpg2L1.html">Start Lesson</a>
+        </div>
+
+        <div class="lesson">
+            <h2 class="lesson-title">Lesson 2</h2>
+            <p>Everyday Conversations</p>
+            <a class="btn btn-primary" href="frenchpg2L2.html">Start Lesson</a>
+        </div>
+
+        <div class="lesson">
+            <h2 class="lesson-title">Lesson 3</h2>
+            <p>Going Deeper</p>
+            <a class="btn btn-primary" href="frenchpg2L3.html">Start Lesson</a>
+        </div>
+
+        <div class="lesson">
+            <h2 class="lesson-title">Lesson 4</h2>
+            <p>Practical Communication</p>
+            <a class="btn btn-primary" href="frenchpg2L4.html">Start Lesson</a>
+        </div>
+
+        <div class="lesson-locked">
+            <span class="lock-icon">&#128274;</span>
+            <h2 class="lesson-title">Lesson 5</h2>
+            <span class="coming-soon">Coming Soon</span>
+        </div>
+    </div>
+    <div class="footer text-center" id="content2">
+        <i class="bi bi-building"></i>
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-building"
+                viewBox="0 0 16 16">
+                <path
+                    d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" />
+                <path
+                    d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z" />
+            </svg>LOVELY PROFESSIONAL UNIVERSITY</h2>
+    </div>
+    <footer class="bg-dark text-light">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About Our Team</h4>
+              <p>
+                We are a dedicated team of language enthusiasts who are passionate about helping you learn and master new
+                languages. Our mission is to make language learning accessible, enjoyable, and effective.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h4>Connect with Us</h4>
+              <div class="social-icons">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p>Email: tushartanwar183@gmail.com</p>
+              <p>Email: akatom312@gmail.com</p>
+              <p>Email: devesh.jaiswal2749@gmail.com</p>
+              <p>Tushar Tanwar: 12319540 </p>
+              <p>Abhishek kumar: 12316950 </p>
+              <p> Devesh jaiswal: 12320162</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- <div class="p-6 mb-2 bg-black text-white h1 text-center">LANGUAGE LEARNING WEBSITE</div> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Include Bootstrap JavaScript (Popper.js and Bootstrap JS) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

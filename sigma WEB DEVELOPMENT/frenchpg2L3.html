@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylenew.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        .header {
+            margin-bottom: 150px;
+            background-color: #343a40;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px;
+            margin-top: 300px;
+        }
+
+        .footer h4 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .footer p {
+            font-size: 16px;
+        }
+
+        .social-icons a {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #ffffff;
+        }
+
+        /* Dark Theme CSS */
+        body.dark-theme {
+            background-color: #000000;
+            color: #fff;
+        }
+
+        .navbar.dark-theme {
+            background-color: #111;
+        }
+
+        .header.dark-theme {
+            background-color: #111;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .container.dark-theme {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .container h2,
+        .container h3,
+        .container ul {
+            color: #fff;
+        }
+
+        .footer.dark-theme {
+            background-color: #111;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        /* Light Theme CSS */
+        body.light-theme {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .navbar.light-theme {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .header.light-theme {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .container.light-theme {
+            background-color: #fff;
+            color: #333;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2,
+        .container h3,
+        .container ul {
+            color: #333;
+        }
+
+        .footer.light-theme {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body class="dark-theme">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">learn French</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="new1.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class=" header text-light text-center py-2 ">
+        <h1 class="display-4">
+            "Learn French and Open a World of Possibilities!"</h1>
+        <p class="lead"> "Apprenez le français, ouvrez le monde!"</p>
+        <!-- <p class="mt-4">
+            <a href="#content" class="btn btn-primary btn-lg">Get Started</a>
+        </p> -->
+    </header>
+    <!-- Content -->
+    <main class="container light-theme text-center mt-4">
+        <h2 class="text-primary">Deeper Content</h2>
+        <div id="phrase-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-primary">English</h3>
+                    <ul id="english-phrases">
+                        <li>What are the implications of this study?</li>
+                        <li>Let's discuss the philosophy of existentialism.</li>
+                        <li>The intricacies of quantum mechanics.</li>
+                        <li>An analysis of classical literature.</li>
+                        <li>Exploring the principles of cognitive psychology.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-success">French</h3>
+                    <ul id="french-phrases">
+                        <li>Quelles sont les implications de cette étude ?</li>
+                        <li>Discutons de la philosophie de l'existentialisme.</li>
+                        <li>Les subtilités de la mécanique quantique.</li>
+                        <li>Une analyse de la littérature classique.</li>
+                        <li>Explorer les principes de la psychologie cognitive.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3">
+            <button id="previous-button" class="btn btn-primary mr-3">Previous</button>
+            <button id="next-button" class="btn btn-primary mr-3">Next</button>
+            <button id="next-button"><a class="btn" href="frenchpg2.html">Next Lesson</a></button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class=" footer text-light">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>About Our Team</h4>
+                    <p>
+                        We are a dedicated team of language enthusiasts who are passionate about helping you learn and
+                        master new
+                        languages. Our mission is to make language learning accessible, enjoyable, and effective.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Connect with Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>Email: tushartanwar183@gmail.com</p>
+                    <p>Email: akatom312@gmail.com</p>
+                    <p>devesh.jaiswal2749@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Link to Bootstrap JS (jQuery and Popper.js are required) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for displaying phrases and navigation -->
+    <script>
+        // Function to display three pairs of English words and their French translations at a time
+        function displayPhrases(startIndex, phrases) {
+            const englishPhrases = document.getElementById("english-phrases");
+            const frenchPhrases = document.getElementById("french-phrases");
+            englishPhrases.innerHTML = "";
+            frenchPhrases.innerHTML = "";
+
+            for (let i = startIndex; i < startIndex + 3 && i < phrases.length; i++) {
+                const englishLi = document.createElement("li");
+                englishLi.textContent = phrases[i].english;
+                englishPhrases.appendChild(englishLi);
+
+                const frenchLi = document.createElement("li");
+                frenchLi.textContent = phrases[i].french;
+                frenchPhrases.appendChild(frenchLi);
+            }
+        }
+
+        // Phrases data
+        const phrasesData = [
+            { english: "What are the implications of this study?", french: "Quelles sont les implications de cette étude ?" },
+            { english: "Let's discuss the philosophy of existentialism.", french: "Discutons de la philosophie de l'existentialisme." },
+            { english: "The intricacies of quantum mechanics.", french: "Les subtilités de la mécanique quantique." },
+            { english: "An analysis of classical literature.", french: "Une analyse de la littérature classique." },
+            { english: "Exploring the principles of cognitive psychology.", french: "Explorer les principes de la psychologie cognitive." }
+        ];
+
+        let currentIndex = 0;
+
+        // Initial display
+        displayPhrases(currentIndex, phrasesData);
+
+        // Next button functionality
+        const nextButton = document.getElementById("next-button");
+        nextButton.addEventListener("click", function () {
+            currentIndex += 3;
+            if (currentIndex >= phrasesData.length) {
+                currentIndex = 0;
+            }
+            displayPhrases(currentIndex, phrasesData);
+        });
+
+        // Previous button functionality
+        const previousButton = document.getElementById("previous-button");
+        previousButton.addEventListener("click", function () {
+            currentIndex -= 3;
+            if (currentIndex < 0) {
+                currentIndex = phrasesData.length - 3;
+            }
+            displayPhrases(currentIndex, phrasesData);
+        });
+
+        // Next Lesson button functionality
+        const nextLessonButton = document.getElementById("next-lesson-button");
+        nextLessonButton.addEventListener("click", function () {
+            // Redirect to the next lesson page or take appropriate action
+            // For demonstration purposes, this button doesn't perform any actual action in this code.
+            alert("Redirecting to the next lesson.");
+        });
+    </script>
+</body>
+</html>
